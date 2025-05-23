@@ -22,7 +22,8 @@ RegisterNumber: 212223110052
 #include<stdio.h>
 #include<ctype.h>
 
-char stack[100]; int top = -1;
+char stack[100];
+int top = -1;
 void push(char x)
 {
 stack[++top]=x;
