@@ -4,12 +4,19 @@
 To write a C program to find and display the priority of the operator in the given Postfix expression
 
 ## Algorithm
+
 1.Start the program.
+
 2.Include the required libraries (stdio.h, string.h).
+
 3.Define a function priority to return the priority level of a given operator.
+
 4.Store the expression (A*B)^C+(D%H)/F&G in a character array.
+
 5.Loop through each character of the expression.
+
 6.Check if the character is an operator, then get its priority and print the corresponding priority level.
+
 7.End the program.
 
 ## Program:
