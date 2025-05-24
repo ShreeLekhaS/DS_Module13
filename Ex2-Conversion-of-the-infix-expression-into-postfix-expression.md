@@ -1,14 +1,20 @@
 # Ex 1(B) Conversion of the infix expression into postfix expression
-## DATE:
+## DATE: 25.02.2025
 ## AIM:
 To write a C program to convert the infix expression into postfix form using stack by following the operator precedence and associative rule.
 
 ## Algorithm
+
 1.Start the program and include stdio.h and ctype.h.
+
 2.Define stack functions push and pop to manage operators.
+
 3.Create a priority function to assign precedence to operators.
+
 4.Write IntoPost to convert infix to postfix by scanning each character: print operands, push ‘(’, pop on ‘)’, and handle operators based on priority.
+
 5.After scanning, pop and print remaining operators from the stack.
+
 6.In main, initialize the expression and call IntoPost, then end the program.
 
 ## Program:
